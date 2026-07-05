@@ -1,0 +1,89 @@
+body {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p, td, th, span, div {
+    color: #000 !important;
+}
+
+.video-article,
+.hero-beer,
+header, 
+nav, 
+#mainNavbar,
+footer, 
+.btn, 
+button, 
+video, 
+.skip-link, 
+#ajanlatkeres {
+    display: none !important;
+}
+
+.container, 
+.container-fluid, 
+.row, 
+main, 
+article, 
+section {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.hero-beer {
+    background: none !important;
+    min-height: auto !important;
+    padding: 2cm 0 !important;
+}
+
+.card, 
+figure, 
+img, 
+table, 
+tr,
+aside {
+    page-break-inside: avoid !important;
+}
+
+h1, h2, h3 {
+    page-break-after: avoid !important;
+}
+
+section, .row { page-break-inside: auto !important; }
+
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    page-break-inside: auto !important; 
+}
+
+
+.table-responsive { overflow: visible !important; }
+
+th, td {
+    border: 1px solid #000 !important;
+    padding: 8px !important;
+    text-align: left !important;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+.card {
+    border: 1px solid #ccc !important;
+    margin-bottom: 1rem !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+}
+
+a {
+    text-decoration: underline !important;
+    color: #000 !important;
+}

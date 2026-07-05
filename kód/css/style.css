@@ -1,0 +1,237 @@
+
+body{
+font-size: 1rem;
+}
+
+
+p, li, a {
+    font-family: 'Roboto', Tahoma, sans-serif;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+img, video { max-width: 100%; height: auto; }
+
+.hero-beer {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../pictures/title_hatter.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh; 
+    
+
+}
+
+
+.hero-beer h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainNavbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
+
+@media (min-width: 992px) {
+#mainNavbar.navbar-transparent {
+    opacity: 0 !important;
+    visibility: hidden; 
+    pointer-events: none; 
+    transition: all 0.6s ease-in-out; 
+}
+
+
+#mainNavbar.navbar-scrolled {
+    opacity: 1 !important;
+    visibility: visible;
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}}
+
+#tableh1{
+    color: #d4a017
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px; 
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 0; 
+}
+
+.card-body p, .contact-links a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+
+.custom-link {
+    text-decoration: underline !important;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+    color: #d4a017; 
+}
+
+.custom-link:visited {
+    color: #777; 
+}
+
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
+    border-bottom: 3px solid #d4a017;
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+@media (max-width: 991px) {
+    .object-fit-cover {
+        min-height: 300px !important;
+        height: 300px;
+    }
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: underline !important; 
+    text-underline-offset: 4px;
+    transition: color 0.3s ease;
+}
+
+.brand-text-gold {
+    color: #d4a017;
+}
+
+
+.tracking-wide {
+    letter-spacing: 2px;
+}
+
+.footer-link:visited {
+    color: #bbbbbb; 
+}
+
+.footer-link:hover {
+    color: #d4a017;
+    text-decoration-color: #d4a017;
+}
+
+@media (max-width: 767.98px) {
+    .mobile-one-column thead {
+        display: none;
+    }
+
+    .mobile-one-column, 
+    .mobile-one-column tbody, 
+    .mobile-one-column tr, 
+    .mobile-one-column td {
+        display: block;
+        width: 100%;
+    }
+
+    .mobile-one-column tr {
+        margin-bottom: 1.5rem;
+        border: 2px solid #d4a017;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    .mobile-one-column td {
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
+        padding: 0.75rem;
+    }
+
+    .mobile-one-column td:last-child {
+        border-bottom: none;
+        background-color: #f8f9fa;
+    }
+}
+
+/* magas kontraszt rész */
+
+body.high-contrast {
+    background-color: #000 !important;
+    color: #ffff00 !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase !important;
+}
+
+body.high-contrast .card, 
+body.high-contrast .bg-light,
+body.high-contrast .bg-dark,
+body.high-contrast section,
+body.high-contrast footer,
+body.high-contrast .modal-content,
+body.high-contrast figcaption {
+    background-color: #000 !important;
+    border: 2px solid #ffff00 !important;
+    color: #ffff00 !important;
+}
+
+body.high-contrast table,
+body.high-contrast thead,
+body.high-contrast tbody,
+body.high-contrast tr,
+body.high-contrast th,
+body.high-contrast td {
+    background-color: #000 !important;
+    color: #ffff00 !important;
+    border: 1px solid #ffff00 !important;
+}
+
+body.high-contrast a, 
+body.high-contrast .nav-link, 
+body.high-contrast .brand-text-gold,
+body.high-contrast h1, 
+body.high-contrast h2, 
+body.high-contrast h3,
+body.high-contrast .custom-link {
+    color: #ffff00 !important;
+    text-decoration: underline !important;
+}
+
+body.high-contrast .btn {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    border: 2px solid #ffff00 !important;
+}
+
+body.high-contrast img, 
+body.high-contrast video {
+    filter: grayscale(100%) contrast(200%);
+}
+
+body.high-contrast .text-secondary,
+body.high-contrast .text-muted,
+body.high-contrast .small,
+body.high-contrast small {
+    color: #ffff00 !important;
+    font-size: 1.2rem !important;
+    opacity: 1 !important;
+}
